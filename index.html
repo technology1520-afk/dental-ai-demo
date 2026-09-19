@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Meet BrightSmile Dental, a fictional modern dental practice, and try Ava, our demo AI receptionist.">
+  <title>BrightSmile Dental · Modern dentistry, gentle care</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/chat.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="tooth" viewBox="0 0 32 32"><path d="M16 7C10 1 3 5 5 13c1 4 2 15 6 15 3 0 1-10 5-10s2 10 5 10c4 0 5-11 6-15 2-8-5-12-11-6Z"/><path d="m12 6 6 3"/></symbol>
+    <symbol id="sparkle" viewBox="0 0 32 32"><path d="m16 4 3.5 8.5L28 16l-8.5 3.5L16 28l-3.5-8.5L4 16l8.5-3.5Z"/><path d="M26 3v6M23 6h6"/></symbol>
+    <symbol id="shield" viewBox="0 0 32 32"><path d="m16 3 11 4v9c0 6-7 11-11 13C12 27 5 22 5 16V7Z"/><path d="m10 15 4 4 8-8"/></symbol>
+    <symbol id="aligner" viewBox="0 0 32 32"><path d="M4 9c7 6 17 6 24 0v10c-7 7-17 7-24 0Z"/><path d="M10 12v9m6-8v10m6-11v9"/></symbol>
+    <symbol id="implant" viewBox="0 0 32 32"><path d="M9 4h14l2 8H7ZM12 12v13l4 4 4-4V12M10 17h12m-12 5h12"/></symbol>
+    <symbol id="cross" viewBox="0 0 32 32"><path d="M12 4h8v8h8v8h-8v8h-8v-8H4v-8h8Z"/></symbol>
+    <symbol id="smile" viewBox="0 0 32 32"><circle cx="16" cy="16" r="12"/><path d="M10 19c3 5 9 5 12 0M11 12h.1M21 12h.1"/></symbol>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+  </defs></svg>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="BrightSmile Dental home"><span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#tooth"/></svg></span><span>BrightSmile<span class="brand-sub">DENTAL</span></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav id="site-nav" aria-label="Main navigation"><a href="#services">Services</a><a href="#why-us">Why Us</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a><button class="button button-small" type="button" data-book>Book a Visit <span aria-hidden="true">↗</span></button></nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> A little less worry. A lot more smiling.</p>
+          <h1>Modern dentistry,<br><span>gentle care.</span></h1>
+          <p class="hero-description">Good care starts with feeling comfortable. Meet a friendly team that puts you first, explains every step, and helps your healthiest smile feel within reach.</p>
+          <div class="hero-actions"><button class="button" type="button" data-chat>Chat with Ava, our AI receptionist <svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></button><button class="button button-outline" type="button" data-book>Book a Visit</button></div>
+          <p class="hero-note">A friendly first step. Ask a question, explore your options.</p>
+          <div class="trust-badges"><span><b aria-hidden="true">★</b> 4.9★ from 2,300+ patients</span><span><b aria-hidden="true">✓</b> Same-week appointments</span><span><b aria-hidden="true">✓</b> Insurance friendly</span></div>
+        </div>
+        <div class="hero-art">
+          <div class="art-caption"><span class="status-dot"></span> YOUR SMILE IS IN GOOD HANDS</div>
+          <svg class="dental-illustration" viewBox="0 0 480 420" role="img" aria-labelledby="art-title art-desc">
+            <title id="art-title">A brighter, healthier smile</title><desc id="art-desc">A friendly smiling tooth surrounded by soft teal shapes and sparkles.</desc>
+            <circle cx="243" cy="208" r="165" fill="#d3eeea"/><circle cx="252" cy="200" r="130" fill="none" stroke="#a8d4cd" stroke-dasharray="3 9"/>
+            <path d="M83 342c87-51 210-54 316-9" stroke="#a8d4cd" stroke-width="2" fill="none"/>
+            <ellipse cx="248" cy="344" rx="102" ry="15" fill="#add5d1" opacity=".5"/>
+            <path d="M242 110c-56-45-105-11-92 48 8 34 18 160 54 161 29 1 10-109 39-109s13 110 42 109c34-1 47-127 55-161 14-59-43-92-98-48Z" fill="#fff" stroke="#b6d9d5" stroke-width="3"/>
+            <path d="M222 106c10 7 22 12 35 13" fill="none" stroke="#cbe5e0" stroke-width="7" stroke-linecap="round"/>
+            <path d="M208 164h1m66 0h1" stroke="#176879" stroke-width="10" stroke-linecap="round"/>
+            <path d="M225 183q17 19 34 0" stroke="#176879" stroke-width="5" fill="none" stroke-linecap="round"/>
+            <ellipse cx="195" cy="180" rx="11" ry="6" fill="#f2d3c3"/><ellipse cx="290" cy="180" rx="11" ry="6" fill="#f2d3c3"/>
+            <path d="m365 90 7 19 19 7-19 7-7 19-7-19-19-7 19-7ZM116 215l5 13 13 5-13 5-5 13-5-13-13-5 13-5Z" fill="#0e7490"/>
+            <circle cx="133" cy="97" r="10" fill="#edc6a5"/><circle cx="368" cy="283" r="17" fill="#edc6a5"/>
+          </svg>
+          <div class="care-note"><span class="care-note-icon"><svg class="icon" aria-hidden="true"><use href="#shield"/></svg></span><div><strong>Care that feels different.</strong><span>Thoughtful people. Beautiful smiles.</span></div></div>
+          <span class="art-footnote">WELCOME TO YOUR NEW DENTAL HOME</span>
+        </div>
+      </div>
+    </section>
+    <section class="section container" id="services">
+      <div class="section-heading reveal"><div><p class="eyebrow">CARE FOR EVERY CHAPTER</p><h2>A healthy smile starts here.</h2></div><p>From your regular checkup to a fresh start,<br class="desktop-break"> thoughtful care, all in one place.</p></div>
+      <div class="services-grid">
+        <article class="service-card reveal"><svg class="service-icon" aria-hidden="true"><use href="#tooth"/></svg><h3>Checkups &amp; Cleanings</h3><p>A fresh start for a healthy, happy smile.</p><div class="service-bottom"><span>from $99</span><button type="button" class="text-button" data-service="checkups">Ask Ava about this <span aria-hidden="true">↗</span></button></div></article>
+        <article class="service-card reveal"><svg class="service-icon" aria-hidden="true"><use href="#sparkle"/></svg><h3>Teeth Whitening</h3><p>A little extra brightness, professionally cared for.</p><div class="service-bottom"><span>from $199</span><button type="button" class="text-button" data-service="whitening">Ask Ava about this <span aria-hidden="true">↗</span></button></div></article>
+        <article class="service-card reveal"><svg class="service-icon" aria-hidden="true"><use href="#aligner"/></svg><h3>Invisible Aligners</h3><p>A discreet path to a more confident smile.</p><div class="service-bottom"><span>from $2,500</span><button type="button" class="text-button" data-service="aligners">Ask Ava about this <span aria-hidden="true">↗</span></button></div></article>
+        <article class="service-card reveal"><svg class="service-icon" aria-hidden="true"><use href="#implant"/></svg><h3>Dental Implants</h3><p>Personalized options to restore your smile.</p><div class="service-bottom"><span>from $1,500</span><button type="button" class="text-button" data-service="implants">Ask Ava about this <span aria-hidden="true">↗</span></button></div></article>
+        <article class="service-card reveal"><svg class="service-icon" aria-hidden="true"><use href="#cross"/></svg><h3>Emergency Care</h3><p>Room for you when the unexpected happens.</p><div class="service-bottom"><span>from $150</span><button type="button" class="text-button" data-service="emergency">Ask Ava about this <span aria-hidden="true">↗</span></button></div></article>
+        <article class="service-card reveal"><svg class="service-icon" aria-hidden="true"><use href="#smile"/></svg><h3>Pediatric Dentistry</h3><p>Big kindness for the littlest smiles.</p><div class="service-bottom"><span>from $79</span><button type="button" class="text-button" data-service="pediatric">Ask Ava about this <span aria-hidden="true">↗</span></button></div></article>
+      </div><p class="section-note">Illustrative starting prices. Ava can share ranges; your dentist confirms a personalized estimate.</p>
+    </section>
+    <section class="why-section section" id="why-us"><div class="container"><div class="center-heading reveal"><p class="eyebrow">PEOPLE FIRST. ALWAYS.</p><h2>Your comfort is part of the care.</h2></div><div class="why-grid">
+      <article class="reveal"><span class="number">01 /</span><h3>No surprises. Just clarity.</h3><p>Transparent pricing, honest conversations, and a clear plan before treatment begins. You’re always part of the decision.</p></article>
+      <article class="reveal"><span class="number">02 /</span><h3>Modern tools. Human touch.</h3><p>Digital imaging and modern equipment help us plan with precision, while our team takes time to explain the details.</p></article>
+      <article class="reveal"><span class="number">03 /</span><h3>Go at your own pace.</h3><p>Nervous about a visit? You’re in good company. Our gentle, anxiety-free approach makes space for questions, pauses, and you.</p></article>
+    </div></div></section>
+    <section class="section container" id="reviews"><div class="section-heading reveal"><div><p class="eyebrow">SMILES SAY IT BEST</p><h2>A few words from our patients.</h2></div><p><span class="stars" aria-hidden="true">★★★★★</span><br>4.9 out of 5 · 2,300+ happy patients</p></div><div class="reviews-grid">
+      <article class="review-card reveal"><span class="stars" aria-label="5 out of 5 stars">★★★★★</span><blockquote>“I used to put off going to the dentist. Dr. Lee listened, explained everything, and made me feel completely at ease.”</blockquote><div class="review-author"><span class="initial" aria-hidden="true">S</span><span><strong>Sarah</strong><small>A calmer kind of checkup</small></span></div></article>
+      <article class="review-card reveal"><span class="stars" aria-label="5 out of 5 stars">★★★★★</span><blockquote>“No confusing bills or rushed appointments. Just friendly people and a plan I could actually understand.”</blockquote><div class="review-author"><span class="initial" aria-hidden="true">J</span><span><strong>James</strong><small>Care with no surprises</small></span></div></article>
+      <article class="review-card reveal"><span class="stars" aria-label="5 out of 5 stars">★★★★★</span><blockquote>“My daughter asked when we could come back. That tells you everything about how lovely this team is with kids.”</blockquote><div class="review-author"><span class="initial" aria-hidden="true">M</span><span><strong>Maria</strong><small>Little smiles, big confidence</small></span></div></article>
+    </div><p class="section-note">Testimonials and ratings are fictional examples for this demo.</p></section>
+    <section class="contact-section section" id="contact"><div class="container contact-grid"><div class="reveal"><p class="eyebrow">WE’D LOVE TO MEET YOU</p><h2>Your next smile<br>is just around the corner.</h2><address><strong>BrightSmile Dental</strong><br>123 Smile Avenue, Suite 100<br>Austin, TX 78701<br><a href="tel:+15125550148">(512) 555-0148</a></address><p class="parking-note">Free parking behind the clinic. Step-free entrance.</p><button type="button" class="button" data-book>Let’s book your first visit <span aria-hidden="true">↗</span></button></div><div class="contact-details reveal"><div class="hours-card"><h3>Time for your smile.</h3><table><caption class="sr-only">Clinic opening hours, Austin local time</caption><tbody><tr><th scope="row">Monday – Friday</th><td>8:00 AM – 6:00 PM</td></tr><tr><th scope="row">Saturday</th><td>9:00 AM – 2:00 PM</td></tr><tr><th scope="row">Sunday</th><td>Closed</td></tr></tbody></table><p>All hours shown in Austin local time.</p></div><div class="map-placeholder" role="img" aria-label="Illustrative map placeholder for 123 Smile Avenue, Austin. Not a real map."><div class="map-road road-one"></div><div class="map-road road-two"></div><div class="map-road road-three"></div><div class="map-pin"><svg class="icon" aria-hidden="true"><use href="#tooth"/></svg><span>Find your brighter smile here</span></div><span class="map-label">AUSTIN, TX · ILLUSTRATIVE MAP</span></div></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><svg class="icon" aria-hidden="true"><use href="#tooth"/></svg> BrightSmile Dental</a><p>© <span id="year">2026</span> BrightSmile Dental.</p><small>Demo website — fictional practice</small></div></footer>
+  <section id="ava-panel" class="chat-panel" aria-label="Chat with Ava, AI receptionist at BrightSmile Dental" hidden>
+    <header class="chat-header"><span class="ava-avatar"><svg class="icon" aria-hidden="true"><use href="#sparkle"/></svg></span><div><h2>Ava <span>· AI receptionist</span></h2><p><span class="status-dot"></span> Online • replies instantly</p><small>AI assistant — demo</small></div><button id="chat-close" class="icon-button" type="button" aria-label="Minimize chat">−</button></header>
+    <div class="chat-demo-note">Try a conversation. No real bookings or calls are made.</div>
+    <div id="chat-messages" class="chat-messages" role="log" aria-live="polite" aria-relevant="additions" aria-label="Conversation with Ava" tabindex="0"></div>
+    <div id="chat-chips" class="chat-chips" role="group" aria-label="Suggested replies"></div>
+    <form id="chat-form" class="chat-form"><label class="sr-only" for="chat-input">Your message to Ava</label><textarea id="chat-input" rows="1" maxlength="500" placeholder="Ask Ava a question…" aria-describedby="chat-input-help"></textarea><button class="send-button" type="submit" aria-label="Send message"><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></button></form><p id="chat-input-help" class="chat-input-help">Enter to send · Shift+Enter for a new line</p>
+  </section>
+  <button id="chat-launcher" class="chat-launcher" type="button" aria-controls="ava-panel" aria-expanded="false" aria-label="Chat with Ava, our AI receptionist"><svg class="icon" aria-hidden="true"><use href="#sparkle"/></svg><span>Ask Ava</span><span class="launcher-dot"></span></button>
+  <noscript><p class="noscript">Please enable JavaScript to chat with Ava. You can still explore the practice information above.</p></noscript>
+</body>
+</html>
