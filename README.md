@@ -1,6 +1,10 @@
 # BrightSmile Dental
 
+[![Live demo](https://img.shields.io/badge/live%20demo-BrightSmile%20Dental-0e7490?style=flat-square)](https://technology1520-afk.github.io/dental-ai-demo/)
+
 A static, dependency-free demo for a fictional dental practice, featuring Ava, a simulated AI receptionist. All artwork is inline SVG and all fonts are system fonts. No APIs, CDNs, dependencies, build tools, or server are needed.
+
+**[Open the live demo →](https://technology1520-afk.github.io/dental-ai-demo/)**
 
 ## Run
 
