@@ -1,5 +1,8 @@
 (() => {
   'use strict';
+  // Refuse to run embedded in someone else's frame (GitHub Pages sends no
+  // X-Frame-Options, so this is the only clickjacking/brand-misuse guard).
+  if (window.top !== window.self) { window.top.location.replace(window.self.location.href); }
   const chat = window.AvaChat.init();
   const toggle = document.querySelector('.nav-toggle');
   const nav = document.getElementById('site-nav');
